@@ -7,7 +7,7 @@ load('layers')
 load('trainingsets')
 
 
-imDir = fullfile('C:\Users\patri\Documents\MATLAB\FYP\Number Plates');
+imDir = fullfile('...\Number Plates');
 addpath(imDir);
 
 options = trainingOptions('sgdm', ...
